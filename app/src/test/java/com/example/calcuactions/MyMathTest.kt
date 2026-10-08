@@ -26,4 +26,8 @@ class MyMathTest {
     fun multiply_doesNotReturnWrongValue() {
         assertNotEquals(16, myMath.multiply(3, 5))
     }
+    @Test
+    fun subtract_returnsCorrectDifference_forValidNumbers() {
+        assertEquals(2, myMath.subtract(5, 3))
+    }
 }
