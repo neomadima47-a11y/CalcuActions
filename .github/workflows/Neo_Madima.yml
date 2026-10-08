@@ -6,11 +6,11 @@ permissions:
 on:
   pull_request:
     branches:
-      - main
+      - Neo Madima
   push: 
     branches:
-      - main
       - Neo Madima
+      
 
 # Cancels other executions in the same branch
 concurrency:
